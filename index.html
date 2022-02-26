@@ -8,7 +8,7 @@
         <meta name="author" content="Mia" />
         <title>日月女开 - 李明妍 - 李小马哒哒哒</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
-        <link href="styles.css?5a3e" rel="stylesheet" />
+        <link href="styles.css?d34a" rel="stylesheet" />
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
@@ -39,7 +39,7 @@
                                 endDate[0] = year + 1;
                             }
                             console.log(today)
-                            var days = parseInt((Date.parse(endDate[0]+"-"+(endDate[1]+1)+"-"+endDate[2]) - today)/(1*24*60*60*1000) + 0.5);
+                            var days = parseInt((Date.parse(endDate[0]+"-"+(endDate[1]+1)+"-"+endDate[2]) - today)/(1*24*60*60*1000) + 0.5) + 1;
                             document.getElementById("bd").innerHTML="距离"+endDate[0]+"年"+(endDate[1]+1)+"月"+endDate[2]+"日还有"+days+"天";
                         </script>
                     </div>
