@@ -11333,6 +11333,14 @@ hr.divider {
   opacity: 1;
 }
 
+hr.divider-black {
+  height: 0.2rem;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: #212529;
+  opacity: 1;
+}
+
 hr.divider-light {
   background-color: #fff;
 }
