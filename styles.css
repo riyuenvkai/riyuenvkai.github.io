@@ -11474,3 +11474,4 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 .text-ellipsis{overflow: hidden; text-overflow:ellipsis; white-space: nowrap; width:80%;}
+.chapter-content img{width: 60%; margin-left: 20%;}
