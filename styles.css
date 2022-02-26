@@ -6979,6 +6979,12 @@ textarea.form-control-lg {
   min-width: 100vw !important;
 }
 
+.h-rem-2{height: 2rem !important;}
+
+.h-rem-5{height: 5rem !important;}
+
+.h-rem-10{height: 10rem !important;}
+
 .h-25 {
   height: 25% !important;
 }
