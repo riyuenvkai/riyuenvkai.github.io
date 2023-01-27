@@ -48,7 +48,8 @@
                                 endDate[0] = year + 1;
                             }
                             var days = parseInt((Date.parse(endDate[0]+"-"+(endDate[1]+1)+"-"+endDate[2]) - Date.parse(year+"-"+(month+1)+"-"+day))/(1*24*60*60*1000));
-                            document.getElementById("bd").innerHTML=days==0?"生日快乐🎂！":("距离"+endDate[0]+"年"+(endDate[1]+1)+"月"+endDate[2]+"日还有"+days+"天");
+                            //document.getElementById("bd").innerHTML=days==0?"生日快乐🎂！":("距离"+endDate[0]+"年"+(endDate[1]+1)+"月"+endDate[2]+"日还有"+days+"天");
+                            document.getElementById("bd").innerHTML=days==0?"生日快乐🎂！":("距离生日还有"+days+"天");
                         </script>
                     </div>
                 </div>
